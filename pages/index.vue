@@ -1,7 +1,6 @@
-import { Style } from "#components"
-
 <script lang="ts">
 import { ref } from 'vue';
+// import { Style } from "#components"
 
 interface Message {
   text: string;
