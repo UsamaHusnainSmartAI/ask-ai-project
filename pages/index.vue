@@ -129,9 +129,9 @@ hover effect
             </div> -->
  <!-- dfd -->
             <!-- Suggestion Box -->
-            <div class="w-5/6 p-2 mt-20 hidden sm:block bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <!-- <div class="w-5/6 p-2 mt-20 hidden sm:block bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <div class="h-auto grid grid-cols-12">
-                    <div class="col-span-4 p-3 h-72 overflow-y-auto [-ms-overflow-style:'none'] [scrollbar-width:'none'] [&::-webkit-scrollbar]:hidden">
+                    <div class="col-span-4 p-3 h-72 overflow-y-auto [-ms-overflow-style:'none'] [scrollbar-width:'none'] [&::-webkit-scrollbar]:hidden"> -->
                         <!-- <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-white">Suggest for you</h5>
                         <a href="#">
                             <div class="text-md my-3 px-2 border-l-2 border-gray-300">
@@ -217,10 +217,10 @@ hover effect
                         </div> -->
 
 
-                    </div>
+                    <!-- </div>
                 </div>
                 
-            </div>
+            </div> -->
 
 
         </div>
