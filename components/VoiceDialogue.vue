@@ -1,7 +1,7 @@
 <template>
     <teleport to="body">
       <div v-if="isOpen" class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
-        <div class="bg-white w-[400px] rounded-xl shadow-lg p-6 relative">
+        <div class="bg-white w-[400px] rounded-xl p-6 relative">
           
           <!-- Close Button -->
           <button @click="closeModal" class="absolute top-4 right-4 text-gray-400 hover:text-black">
