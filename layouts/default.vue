@@ -32,7 +32,7 @@ onMounted(() => {
 })
 </script>
 
-<template>
+<template class="bg-gray-100 ">
 
   
         <Navigation />
@@ -40,7 +40,7 @@ onMounted(() => {
         <Sidebar />
             
         <!-- Content -->
-        <main class="p-6 flex-1 bg-gray-100">
+        <main class="p-6 flex-1 h-screen overflow-y-auto bg-gray-100">
             <NuxtPage />
         </main>
         
