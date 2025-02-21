@@ -11,28 +11,18 @@ const showInputScreen = ref(true) // Control which component to show
 const toggleComponent = () => {
     showInputScreen.value = !showInputScreen.value
 }
-
-
-
 </script>
 
 <template>
-    
-    
-     <div class="p-4 sm:ml-64">
+    <div class="p-4 sm:ml-64">
         <div class="h-screen  items-center flex flex-col justify-center"> 
             
             <inputScreen v-if="showInputScreen" @toggleComponent="toggleComponent" />
             <outputScreen v-else />
 
-          
-
-
         </div>
     </div> 
   </template>
-
-
 
 <style>
   @media (max-width: 639px) {
